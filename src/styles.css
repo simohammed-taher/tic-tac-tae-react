@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+  background: linear-gradient(to right,#ffbf00,#ff00b3);
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .square {
+    background: rgb(78, 195, 199);
+    float: left;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 24px;
+    height: 74px;
+    margin-right: -1px;
+    margin-top: -1px;
+    text-align: center;
+    width: 94px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button.squarehighlight {
+    float: left;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 24px;
+    height: 74px;
+    margin-right: -1px;
+    margin-top: -1px;
+    text-align: center;
+    width: 94px;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    background: greenyellow;
+  }
+  .square:focus {
+    outline: none;
+  }
+  .kolchi{
+    width: 40%;
+    height: 50%;
+    margin: 0 auto;
+    /* color: aqua; */
+  }
+  
